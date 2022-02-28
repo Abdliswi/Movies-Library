@@ -1,10 +1,10 @@
-# Project Name - Project Version 2.0
+# Project Name - Project Version 3.0
 
 **Author Name**: Abd Alhameed Liswi
 
 ## WRRC
 
-![image](/assets/WRRC2.png)
+![image](/assets/WRRC3.png)
 
 ## Overview
 
@@ -23,3 +23,5 @@
 5. popular Page
 6. latest Page
 7. not found Page
+8. add movie
+9. get movie
