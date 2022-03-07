@@ -6,9 +6,11 @@ const axios = require("axios");
 const pg = require("pg");
 
 require("dotenv").config();
-
+app.use(cors());
 
 const app = express();
+const cors = require('cors')
+
 const APIKEY = process.env.APIKEY;
 const PORT = process.env.PORT;
 const DATABASE_URL = process.env.DATABASE_URL;
