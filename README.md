@@ -4,7 +4,7 @@
 
 ## WRRC
 
-![image](/assets/WRRC3.png)
+![image](/assets/WRRC4.png)
 
 ## Overview
 
@@ -25,3 +25,6 @@
 7. not found Page
 8. add movie
 9. get movie
+10. update movie
+11. delete movie
+12. get specific movie

@@ -6,14 +6,20 @@ const axios = require("axios");
 const pg = require("pg");
 
 require("dotenv").config();
-
+app.use(cors());
 
 const app = express();
+const cors = require('cors')
+
 const APIKEY = process.env.APIKEY;
 const PORT = process.env.PORT;
 const DATABASE_URL = process.env.DATABASE_URL;
-const client = new pg.Client(DATABASE_URL);
+// const client = new pg.Client(DATABASE_URL); for task14 now to be removed for task15
 
+const client = new pg.Client({
+    connectionString: process.env.DATABASE_URL,
+    ssl: { rejectUnauthorized: false}
+});
 
 function MovieData(id, title, release_date, poster_path, overview,){
     this.id = id;
