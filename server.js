@@ -6,9 +6,10 @@ const axios = require("axios");
 const pg = require("pg");
 
 require("dotenv").config();
+const app = express();
+
 app.use(cors());
 
-const app = express();
 const cors = require('cors')
 
 const APIKEY = process.env.APIKEY;
